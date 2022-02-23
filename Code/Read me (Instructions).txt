@@ -1,0 +1,133 @@
+%% Paper: %%           A Nation-wise Economic Profiling Based on Machine Learning: The Spanish Case Study.
+%% Information: %%     This ".txt" file describes the components of our nation-wise economic profiling system and how to use them.
+
+
+
+
+
+
+%% -- 1 --  Data ETL Module %% 
+	
+	%% Data Source Identification, Extraction and Acquisition %%
+		- Original Database Structure: this is the data we originally got from the INE. This data contains duplicated and irrelavant information.
+			- TL;DR: Given a place from locations (e.g. Málaga) and a data serie from series (e.g. male unemployment percentage), you can find the data about it in values using the ID found in codes. Also codes contains information about when these data was obtained which allows to request new data to the INE DB.
+				- locations table: Places considered in our study (ID and name of the place). Currently, we are considering only provinces (i.e. cities in Spanish administrative organisation).
+				- series table: Data series stored in our database, for example, employment data (ID, names of the data serie, internal INE code for this serie and some description text about it).
+				- codes table: Given a place from location and a serie from series, it stores the internal INE code to access this information, when it was updated ("last_update" for the date in INE DB and "real_date" for the date when our profiling system gets those data). It also includes an ID and a descriptive text.
+				- values table: Actual values for a pair {place (from table locations), serie (frome table series)}. These data are annotated with their year and period (the meaning of the period value can be a month, a semester, a quarter...). In our work it means "month".
+
+	%% Data Formatting, Pre-processing and Loading %%
+		- Reduced Database structure: this is the database that we obtained after formatting, pre-processing and loading the original data offered by the INE. It is contained in the file "db-reduced.db".
+				- Structure: it is contained in a single table with clean data:
+					- Only series with data for all locations (33 series and 52 cities).
+					- Complete and consecutive years from 2003 to 2017 (15 years).
+					- 12 values per year (33 x 52 x 15 x 12 = 308 880 values).
+
+	%% Main Python files used by the profling system during the ETL module steps %%
+		- database.py: This file contains the python declaration for the database (ORM system using SQLAlchemy). The method createDB create/open the SQLite database db.db returning an object to manipulate it.
+		- data.py: This is the main program to get the actual data from INE database.
+		- test.py: Testing some operations over the database.
+		- testURL.py: Get all series in INE database.
+		- newSerie.py: From a previous analysis (reduced one) generates the "series.json" to be downloaded.
+		- cleanData.py: Generates a clean version of the data (db-reduced.db) that we use in our work.
+
+	%% Other Files involved by the profling system during the ETL module steps  %%
+		- locations.sql: SQL sentences for creating and population localtions table.
+		- series.json: Data needed to query INE Database for the interested series.
+		- only-locs.db: SQLite Database only including the locations (for a clean restarting).
+		- db.db: Current SQLite Database.
+		- URL_analysis2.txt: All the data series including a city.
+		- URL_analysis2_reduced.txt: Series selected from "URL_analysis2.txt" (only includes the number of INE series and the name of the series removing the city name).
+
+	%% Further functionalities we have implemented in the ETL module to keep the data updated automatically %%
+		- To get some new series:
+			- Search the series in "URL_analysis.txt" (this is the result of "textURL.py").
+			- You have to include in "series.json" a new element with three values:
+				- name: This is the name of the series (This is the only information for the user).
+				- code: This is the number which appears in the line Searching in "X".
+				- text: This is the text removing the name of the location.
+				
+				
+				
+				
+				
+
+%% -- 2 --  AI Module %%
+
+	%% Data-Clustering Pre-processing %%
+	
+			%% Identifying the Ideal Number of Clusters %%
+				- Python File Executing the Task: "DcGA_kmeans_step1.py"
+			
+			%% Features' Reduction %%
+				- Python File Executing the Task: "DcGA_kmeans_step2.py"
+				
+			%% Data Series Reduction %%
+				- Python File Executing the Task: "DcGA_kmeans_step3.py"
+			
+	%% Economic Profiling via Data Clustering %%
+			- Python File Executing the Task: "DcGA_kmeans_step4.py"
+		
+	%% How to launch automaticlly all the "AI module" that results in the economic profiling :%%
+		- You just need to run the main file "DcGA_kmeans_main_clustering.py". This file contains:
+			- We provide the ability to tune Parameters of the DcGA (can be tuned by the user): 
+				- it: number of iterations.
+				- N : number of rows in DcGA grid.
+				- D : number of columns in DcGA grid.
+				- pop : size of the DcGA population.
+				- pc : crossover probability in the DcGA.
+				- pm : mutation probability in the DcGA.
+			- It launches automatically all the steps of the AI module and it also allows customising them as one wishes (e.g. distance in step 3):
+				- clustering_step_1: Identifying the Ideal Number of Clusters.
+				- clustering_step_2: Features' Reduction.  
+				- clustering_step_3: Data Series Reduction.
+				- clustering_step_4: Economic Profiling via Data Clustering. 
+			- We provide several ways of displaying information during the processing of each step of the AI module:
+				- 0: do not display the processing information.
+				- 1: display the processing information.
+			- We provide several information during the processing of each step and also several ways of storing them:
+				- If the display is activated, a guideline explaining the information being diplayed will be shown in your IDE console window.
+				- Also, whether the display is activated or not, the same data displayed on your console window and other supplementary one will be automatically stored in excel files that the user can use as one wishes:
+					- Step1_Data.xls: results of the step "Identifying the Ideal Number of Clusters".
+					- Step2_Data.xls: results of the step "Features' Reduction".
+					- Step3_Data.xls: results of the step "Data Series Reduction."
+					- Excel files with integer indexes as a name: theses files contain the results of the step "Economic Profiling via Data Clustering", where each Excel file ID represents a profiling for a given economic metric (e.g. index 1 for Men employement).
+			- In the "cGA.py" file, we provided several options for the user to perform various experiments:
+				- metric_1 : sum of the distances between each cluster's points and centroids.
+				- metric_2 : sum of the distances between the furthest point in each cluster and the cluster's centroid.
+				- metric_3 : sum of the distances between all the clusters' centroids.
+				- metric_4 : sum of the distances between each cluster's centroid and its nearest point from other clusters.
+				- etc.
+				
+				
+				
+				
+	
+%% -- 3 --  Supplementary functionalities that we have implemented and integrated in our profiling system but we did not describe in our paper %%
+
+	%% Supplementary Functionality 1: Economic prediction %%
+		- Description :
+			- For a given ecnomic metric and a given Spanish city chosen by the user (e.g. male employement for Malaga city), this functionality performs an conomic prediction of the evolution of the value of the chosen economic metric that has been selected by the user.
+			- The prediction has been implemented using LSTM neural networks (Long-Term-Short-Term).
+		
+		- Python implementation files used to create this functionality: you can run the following files:
+			- Open, then, run the file "predict-single.py".
+			- At the end of the execution, you will get prediction numeric values displayed on the console of your Python IDE.
+			- You will also obtain PNG image called "file" that contains graphs of I) actual evolution and II) the predicted evolution for the chosen metric and city. 
+
+	%% Supplementary Functionality 2: Animated and dynamic couloured Map of economic evolution %%
+		- Description: 
+			- It creates both a I) dynamic animated map and also II) a fixed one of Spain including 52 cities that describes the evolution of cities economical metrics/values for a period from 2003 to 2017.
+			- For a given metric chosen by the user (e.g. male employement), it coulours, in a Spanish map, each city zone with a color intesity that depends on the value of the given metric that has been recorded for that city in a certain period.
+	
+		- Python implementation files used to create this functionality: you can run the following files:
+			- map_cli.py: it generates a PNG file with a name "output" that contains a fixed map (python map_cli.py --help for all the options).
+			- map_gif.py: it generates a GIF file with a name "output" that contains an animated map (python map_gif.py --help for all the options).
+
+
+
+
+
+
+%% -- 4 -- Final Notes:%%
+		- When executing our code, your compiler / IDE might request the installation of supplementary libraries and packages to execute our profiling system.

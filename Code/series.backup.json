@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Total Population",
+    "code": 22,
+    "text": "Total. Total habitantes. Personas."
+  },
+  {
+    "name": "Women Population",
+    "code": 22,
+    "text": "Mujeres. Total habitantes. Personas."
+  },
+  {
+    "name": "Men Population",
+    "code": 22,
+    "text": "Hombres. Total habitantes. Personas."
+  },
+  {
+    "name": "Men Activity Percentage",
+    "code": 293,
+    "text": "Tasa de actividad. Hombres. Total."
+  },
+  {
+    "name": "Women Activity Percentage",
+    "code": 293,
+    "text": "Tasa de actividad. Mujeres. Total."
+  },
+  {
+    "name": "Men Unemployment Percentage",
+    "code": 293,
+    "text": "Tasa de paro de la población. Hombres. Total."
+  },
+  {
+    "name": "Women Unemployment Percentage",
+    "code": 293,
+    "text": "Tasa de paro de la población. Mujeres. Total."
+  },
+  {
+    "name": "Men employment Percentage",
+    "code": 293,
+    "text": "Tasa de empleo de la población. Hombres. Total."
+  },
+  {
+    "name": "Women employment Percentage",
+    "code": 293,
+    "text": "Tasa de empleo de la población. Mujeres. Total."
+  },
+  {
+    "name": "Consumer price index",
+    "code": 25,
+    "text": "Índice general. Índice."
+  }
+]

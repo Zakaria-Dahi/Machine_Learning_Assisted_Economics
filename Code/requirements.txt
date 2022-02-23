@@ -1,0 +1,12 @@
+svglib
+reportlab
+matplotlib
+sqlalchemy
+matplot
+pandas
+imageio
+pygifsicle
+sklearn
+kneed
+tensorflow
+keras

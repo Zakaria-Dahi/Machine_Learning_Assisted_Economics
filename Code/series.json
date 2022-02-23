@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Total Population",
+        "code": 22,
+        "text": "Total. Total habitantes. Personas."
+    },
+    {
+        "name": "Women Population",
+        "code": 22,
+        "text": "Mujeres. Total habitantes. Personas."
+    },
+    {
+        "name": "Men Population",
+        "code": 22,
+        "text": "Hombres. Total habitantes. Personas."
+    },
+    {
+        "name": "Men Activity Percentage",
+        "code": 293,
+        "text": "Tasa de actividad. Hombres. Total."
+    },
+    {
+        "name": "Women Activity Percentage",
+        "code": 293,
+        "text": "Tasa de actividad. Mujeres. Total."
+    },
+    {
+        "name": "Men Unemployment Percentage",
+        "code": 293,
+        "text": "Tasa de paro de la población. Hombres. Total."
+    },
+    {
+        "name": "Women Unemployment Percentage",
+        "code": 293,
+        "text": "Tasa de paro de la población. Mujeres. Total."
+    },
+    {
+        "name": "Men employment Percentage",
+        "code": 293,
+        "text": "Tasa de empleo de la población. Hombres. Total."
+    },
+    {
+        "name": "Women employment Percentage",
+        "code": 293,
+        "text": "Tasa de empleo de la población. Mujeres. Total."
+    },
+    {
+        "name": "Consumer price index",
+        "code": 25,
+        "text": "Índice general. Índice."
+    },
+    {
+        "text": "Índice general. Índice.",
+        "code": 25,
+        "name": "Índice general. Índice."
+    },
+    {
+        "text": "Índice general. Variación mensual.",
+        "code": 25,
+        "name": "Índice general. Variación mensual."
+    },
+    {
+        "text": "Índice general. Variación anual.",
+        "code": 25,
+        "name": "Índice general. Variación anual."
+    },
+    {
+        "text": "Índice general. Índice.",
+        "code": 25,
+        "name": "Índice general. Índice."
+    },
+    {
+        "text": "Alimentos y bebidas no alcohólicas. Índice.",
+        "code": 25,
+        "name": "Alimentos y bebidas no alcohólicas. Índice."
+    },
+    {
+        "text": "Bebidas alcohólicas y tabaco. Índice.",
+        "code": 25,
+        "name": "Bebidas alcohólicas y tabaco. Índice."
+    },
+    {
+        "text": "Vestido y calzado. Índice.",
+        "code": 25,
+        "name": "Vestido y calzado. Índice."
+    },
+    {
+        "text": "Vivienda, agua, electricidad, gas y otros combustibles. Índice.",
+        "code": 25,
+        "name": "Vivienda, agua, electricidad, gas y otros combustibles. Índice."
+    },
+    {
+        "text": "Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar. Índice.",
+        "code": 25,
+        "name": "Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar. Índice."
+    },
+    {
+        "text": "Sanidad. Índice.",
+        "code": 25,
+        "name": "Sanidad. Índice."
+    },
+    {
+        "text": "Transporte. Índice.",
+        "code": 25,
+        "name": "Transporte. Índice."
+    },
+    {
+        "text": "Comunicaciones. Índice.",
+        "code": 25,
+        "name": "Comunicaciones. Índice."
+    },
+    {
+        "text": "Ocio y cultura. Índice.",
+        "code": 25,
+        "name": "Ocio y cultura. Índice."
+    },
+    {
+        "text": "Enseñanza. Índice.",
+        "code": 25,
+        "name": "Enseñanza. Índice."
+    },
+    {
+        "text": "Restaurantes y hoteles. Índice.",
+        "code": 25,
+        "name": "Restaurantes y hoteles. Índice."
+    },
+    {
+        "text": "Otros bienes y servicios. Índice.",
+        "code": 25,
+        "name": "Otros bienes y servicios. Índice."
+    },
+    {
+        "text": "Sin asalariados. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "Sin asalariados. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 1 a 2. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 1 a 2. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 3 a 5. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 3 a 5. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 6 a 9. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 6 a 9. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 10 a 19. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 10 a 19. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 20 a 49. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 20 a 49. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 50 a 99. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 50 a 99. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 100 a 199. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 100 a 199. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 200 a 499. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 200 a 499. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 500 a 999. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 500 a 999. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 1000 a 4999. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 1000 a 4999. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "De 5000 o más asalariados. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "De 5000 o más asalariados. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "Total. Total de empresas. Total CNAE. Empresas.",
+        "code": 43,
+        "name": "Total. Total de empresas. Total CNAE. Empresas."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Actividades financieras y de seguros.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Actividades financieras y de seguros."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Actividades inmobiliarias.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Actividades inmobiliarias."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Actividades profesionales, científicas y técnicas; actividades administrativas y servicios auxiliares.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Actividades profesionales, científicas y técnicas; actividades administrativas y servicios auxiliares."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Comercio al por mayor y al por menor; reparación de vehículos de motor y motocicletas; transporte y almacenamiento; hostelería.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Comercio al por mayor y al por menor; reparación de vehículos de motor y motocicletas; transporte y almacenamiento; hostelería."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Construcción.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Construcción."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Industrias extractivas (excepto construcción).",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Industrias extractivas (excepto construcción)."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Información y comunicaciones.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Información y comunicaciones."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Secciones P y Q.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Secciones P y Q."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Secciones R y S.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Secciones R y S."
+    },
+    {
+        "text": "Total. Total de empresas. Empresas. Resto de servicios.",
+        "code": 43,
+        "name": "Total. Total de empresas. Empresas. Resto de servicios."
+    },
+    {
+        "text": "Ocupados. Ambos sexos. Agricultura. Personas.",
+        "code": 293,
+        "name": "Ocupados. Ambos sexos. Agricultura. Personas."
+    },
+    {
+        "text": "Ocupados. Ambos sexos. Industria. Personas.",
+        "code": 293,
+        "name": "Ocupados. Ambos sexos. Industria. Personas."
+    },
+    {
+        "text": "Ocupados. Ambos sexos. Construcción. Personas.",
+        "code": 293,
+        "name": "Ocupados. Ambos sexos. Construcción. Personas."
+    },
+    {
+        "text": "Ocupados. Ambos sexos. Servicios. Personas.",
+        "code": 293,
+        "name": "Ocupados. Ambos sexos. Servicios. Personas."
+    },
+    {
+        "text": "Activos. Ambos sexos. Agricultura. Personas.",
+        "code": 293,
+        "name": "Activos. Ambos sexos. Agricultura. Personas."
+    },
+    {
+        "text": "Activos. Ambos sexos. Industria. Personas.",
+        "code": 293,
+        "name": "Activos. Ambos sexos. Industria. Personas."
+    },
+    {
+        "text": "Activos. Ambos sexos. Construcción. Personas.",
+        "code": 293,
+        "name": "Activos. Ambos sexos. Construcción. Personas."
+    },
+    {
+        "text": "Activos. Ambos sexos. Servicios. Personas.",
+        "code": 293,
+        "name": "Activos. Ambos sexos. Servicios. Personas."
+    },
+    {
+        "text": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Agricultura. Porcentaje.",
+        "code": 293,
+        "name": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Agricultura. Porcentaje."
+    },
+    {
+        "text": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Industria. Porcentaje.",
+        "code": 293,
+        "name": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Industria. Porcentaje."
+    },
+    {
+        "text": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Construcción. Porcentaje.",
+        "code": 293,
+        "name": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Construcción. Porcentaje."
+    },
+    {
+        "text": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Servicios. Porcentaje.",
+        "code": 293,
+        "name": "Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Servicios. Porcentaje."
+    }
+]

@@ -1,0 +1,54 @@
+25
+Índice general. Índice. 
+Índice general. Variación mensual. 
+Índice general. Variación anual. 
+Índice general. Índice. 
+Alimentos y bebidas no alcohólicas. Índice. 
+Bebidas alcohólicas y tabaco. Índice. 
+Vestido y calzado. Índice. 
+Vivienda, agua, electricidad, gas y otros combustibles. Índice. 
+Muebles, artículos del hogar y artículos para el mantenimiento corriente del hogar. Índice. 
+Sanidad. Índice. 
+Transporte. Índice. 
+Comunicaciones. Índice. 
+Ocio y cultura. Índice. 
+Enseñanza. Índice. 
+Restaurantes y hoteles. Índice. 
+Otros bienes y servicios. Índice. 
+43
+Sin asalariados. Total de empresas. Total CNAE. Empresas. 
+De 1 a 2. Total de empresas. Total CNAE. Empresas. 
+De 3 a 5. Total de empresas. Total CNAE. Empresas. 
+De 6 a 9. Total de empresas. Total CNAE. Empresas. 
+De 10 a 19. Total de empresas. Total CNAE. Empresas. 
+De 20 a 49. Total de empresas. Total CNAE. Empresas. 
+De 50 a 99. Total de empresas. Total CNAE. Empresas. 
+De 100 a 199. Total de empresas. Total CNAE. Empresas. 
+De 200 a 499. Total de empresas. Total CNAE. Empresas. 
+De 500 a 999. Total de empresas. Total CNAE. Empresas. 
+De 1000 a 4999. Total de empresas. Total CNAE. Empresas. 
+De 5000 o más asalariados. Total de empresas. Total CNAE. Empresas. 
+Total. Total de empresas. Total CNAE. Empresas. 
+Total. Total de empresas. Empresas. Actividades financieras y de seguros. 
+Total. Total de empresas. Empresas. Actividades inmobiliarias. 
+Total. Total de empresas. Empresas. Actividades profesionales, científicas y técnicas; actividades administrativas y servicios auxiliares. 
+Total. Total de empresas. Empresas. Comercio al por mayor y al por menor; reparación de vehículos de motor y motocicletas; transporte y almacenamiento; hostelería. 
+Total. Total de empresas. Empresas. Construcción. 
+Total. Total de empresas. Empresas. Industrias extractivas (excepto construcción). 
+Total. Total de empresas. Empresas. Información y comunicaciones. 
+Total. Total de empresas. Empresas. Secciones P y Q. 
+Total. Total de empresas. Empresas. Secciones R y S. 
+Total. Total de empresas. Empresas. Resto de servicios. 
+293
+Ocupados. Ambos sexos. Agricultura. Personas. 
+Ocupados. Ambos sexos. Industria. Personas. 
+Ocupados. Ambos sexos. Construcción. Personas. 
+Ocupados. Ambos sexos. Servicios. Personas. 
+Activos. Ambos sexos. Agricultura. Personas. 
+Activos. Ambos sexos. Industria. Personas. 
+Activos. Ambos sexos. Construcción. Personas. 
+Activos. Ambos sexos. Servicios. Personas. 
+Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Agricultura. Porcentaje. 
+Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Industria. Porcentaje. 
+Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Construcción. Porcentaje. 
+Distribución porcentual de la población por sector económico. Ocupados. Ambos sexos. Servicios. Porcentaje. 
