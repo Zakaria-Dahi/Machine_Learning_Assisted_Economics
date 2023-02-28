@@ -1,4 +1,35 @@
-# ML-Economis
+# Quick Description
+
+**Programmer:shipit:**: Zakaria Abdelmoiz DAHI, and [Gabriel Luque](https://github.com/GabJL) from the University of Malaga, Spain. 
+
+**About:** This repositiory implements a machine learning pipeline devised in [1] for decision making in economics.
+
+- [1] **Dahi, Z.A.**, Luque, G., Alba, E. (2022). A Machine Learning-Based Approach for Economics-Tailored Applications: The Spanish Case Study. In: Jiménez Laredo, J.L., Hidalgo, J.I., Babaagba, K.O. (eds) Applications of Evolutionary Computation. EvoApplications 2022. Lecture Notes in Computer Science, vol 13224. Springer, Cham. https://doi.org/10.1007/978-3-031-02462-7_36
+
+## **How :green_book:** 
+
+    - Depending on what component of the pipeline you want to execute, you have to navigate to the folder code and then to the folder dedicated to the component you want to execute.
+
+
+## **Folders Hiearchy :open_file_folder:**
+    
+    - Code:
+        - Database: create and manipulate the database (Extraction module).
+        - Profiling: Perform the profiling including the preprocessing steps.
+        - Prediction: Performs the forecasting.
+        - Animated_Maps: Produce an animated gif for a given metric.
+        - Maps: Create a fixed map for a given metric.
+        - old databases: previous databases before normalisation and pre-processing.
+        - svg-map-aux: Other materials.
+    - Results:
+        - Pre-profiling: contains the excel file of the pre-profiling.
+        - Profiling: contains the excel files of the profiling for each of the data series.
+        - Predictions: Contains the figure illustrating the forecasting.
+        - Animated_Maps: Contains the animated maps of Spain for a given metric.
+
+        
+## **Demo :movie_camera:**
+    
 
 This project allows to download information from INE and update it.
 
