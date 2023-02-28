@@ -1,6 +1,6 @@
 # Quick Description
 
-**Programmer:shipit:**: Zakaria Abdelmoiz DAHI, and [Gabriel Luque](https://github.com/GabJL) from the University of Malaga, Spain. 
+**Programmers :shipit:**: Zakaria Abdelmoiz DAHI, and [Gabriel Luque](https://github.com/GabJL) from the University of Malaga, Spain. 
 
 **About:** This repositiory implements a machine learning pipeline devised in [1] for decision making in economics.
 
