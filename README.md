@@ -30,8 +30,9 @@
         
 ## **Demo :movie_camera:**
     
+![output](https://user-images.githubusercontent.com/68249696/221965123-627996d5-b764-4003-840d-281d4b7308ac.gif)
+![output](https://user-images.githubusercontent.com/68249696/221965145-73bca8a8-672f-4321-aea6-84a8f2c2265a.png)
 
-This project allows to download information from INE and update it.
 
 ## Tools:
 
